@@ -17,7 +17,7 @@ public class Exercicio_02 {
 			System.out.print("Digite uma número de 1 a 100: ");
 			num = sc.nextInt();
 			if (num <= 0 || num > 100) {
-				System.out.print("Valor inválido, digite um valor entre 1 a 100");
+				System.out.println("Valor inválido, digite um valor entre 1 a 100");
 			}
 		}
 
@@ -38,7 +38,7 @@ public class Exercicio_02 {
 			}
 		}
 		if (!acerto) {
-			System.out.println("Que pena, cabaram suas tentativas :(");
+			System.out.println("Que pena, acabaram suas tentativas :(");
 		}
 		sc.close();
 	}
